@@ -204,9 +204,13 @@ input[type=text], select, textarea {
       list-style: none;
       line-height: 2em;
   }
+  #formtext{
+      line-height: 2em;
+      font-weight: bold
+  }
   .container {
     font-family: 'montserrat', sans-serif;
-    background-color: white;
+    background-color: #dfeded;
     padding: 20px;
   }
 
