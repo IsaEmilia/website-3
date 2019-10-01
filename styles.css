@@ -75,6 +75,9 @@ background-color: #74938C;
     line-height: 1.5em;
     background-color: white;
 }
+.news{
+    background-color: white;
+}
 
 article{
     grid-column: 2 / 3;
