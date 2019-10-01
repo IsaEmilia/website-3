@@ -34,6 +34,9 @@ h1{
 }
 
 .tab{
+display:grid;
+grid-template-columns: repeat(5, 1fr);
+
 overflow: hidden;
 background-color: #74938C;
 }
@@ -46,6 +49,10 @@ background-color: #74938C;
     cursor: pointer;
     padding: 10px;
     transition: 0.3s;
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 3px;
 }
 
 .tab button:hover{
