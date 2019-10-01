@@ -15,17 +15,90 @@
         </header>
     </div>
 
-    <div>
-        <nav>
-            <a>about</a>
-            <a>link</a>
-            <a>another link</a>
-            <a>a link</a>
-            <a>the last link</a>
-        </nav>
+    <div class="tab">
+        <button class="tablinks" onclick="openpage(event, 'about')"id="defaultOpen">about</button>
+        <button class="tablinks" onclick="openpage(event, 'news')">news</button>
+        <button class="tablinks" onclick="openpage(event, 'events')">events</button>
+        <button class="tablinks" onclick="openpage(event, 'gallery')">gallery</button>
+        <button class="tablinks" onclick="openpage(event, 'contact')">contact</button>
+    </div>
+<!-- main page -->
+    <div id="about" class="tabcontent">
+            <div class="wrapper">
+                    <main>
+                       <article>
+                           <h2>headline for main article</h2>
+                           <p>an article for the main page</p>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Optio, incidunt. Rem, corporis soluta. Sint, debitis minus ipsa dicta, 
+                               sunt, beatae in nobis cupiditate nisi 
+                               maiores eligendi adipisci facilis. Ipsam, ipsum. 
+                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                               Quas id tenetur obcaecati sed repellat 
+                               magni ratione dolor enim ex rerum minus voluptatem culpa, 
+                               deleniti, quidem dicta atque voluptatibus numquam consectetur?</p>      
+                       </article>
+                   </main>
+                   
+               
+                       <img src="plants/polar-bear-4443364_1920.jpg"
+                            width="75%">  
+                            <footer>&copy; copyright </footer>                       
+            </div>                 
+    </div>
+<!-- news section-->
+    <div id="news" class="tabcontent">
+        <div class="news">
+        
+        <img src="plants/fern-918570_1920.jpg" alt="pic"
+            width="50%">
+            <article class="news-artcl">
+              <h2>news article</h2>
+                <p class="newsp">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Perferendis in beatae deserunt sequi provident fugiat asperiores molestiae maxime, inventore quam, 
+                quibusdam, nihil eligendi nostrum ducimus reprehenderit architecto delectus quasi earum. 
+                </p>
+            </article>
+        
+        
+        <img src="plants/dark-green-plant-3808354_1920.jpg" alt="pic"
+             width="50%">
+            <article class="news-artcl">
+              <h2>news article</h2>
+                <p class="newsp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis in beatae deserunt sequi provident fugiat asperiores molestiae maxime, inventore quam, 
+                    quibusdam, nihil eligendi nostrum ducimus reprehenderit architecto delectus quasi earum. 
+                </p>
+            </article>
+            
+        <img src="plants/leaf-4431306_1920.jpg" alt="pic"
+             width="50%">
+            <article class="news-artcl"></article>
+              <h2>news article</h2>
+                 <p class="newsp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Perferendis in beatae deserunt sequi provident fugiat asperiores molestiae maxime, inventore quam, 
+                        quibusdam, nihil eligendi nostrum ducimus reprehenderit architecto delectus quasi earum. 
+                 </p>
+            </article>
+        <footer id="newsfooter">&copy; copyright </footer>
+            </div>
     </div>
 
-    <div class="wrapper">
+    <div id="events" class="tabcontent">
+        <h2>events</h2>
+    </div>
+
+    <div id="gallery" class="tabcontent">
+        <h2>gallery</h2>
+    </div>
+
+    <div id="contact" class="tabcontent">
+        <h2>contact us!</h2>
+    </div>
+
+
+    <!--<div class="wrapper">
      <main>
         <article>
             <h2>headline for main article</h2>
@@ -46,7 +119,14 @@
 
 
   <footer>&copy; copyright </footer>
-    </div>
+    </div>-->
+
+    
+
+
+  <script
+  src="stuff.js">
+  </script> 
     
 </body>
 

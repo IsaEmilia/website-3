@@ -33,17 +33,32 @@ h1{
     
 }
 
-nav{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    background-color: #74938C;
-    padding: 20px;
-    font-family: 'montserra', sans-serif;
-    color: white;
-    font-variant: small-caps;
-    grid-column-gap: 5px;
+.tab{
+overflow: hidden;
+background-color: #74938C;
 }
 
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.tab button:hover{
+    background-color: #90b0ac; 
+}
+
+.tab button:active{
+    background-color: #5b7572;
+}
+
+.tabcontent{
+    display: none;
+}
 
 .wrapper{
     display: grid;
@@ -52,7 +67,6 @@ nav{
     font-family: 'montserrat', sans-serif;
     line-height: 1.5em;
     background-color: white;
-
 }
 
 article{
