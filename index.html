@@ -19,7 +19,7 @@
         <button class="tablinks" onclick="openpage(event, 'about')"id="defaultOpen">about</button>
         <button class="tablinks" onclick="openpage(event, 'news')">news</button>
         <button class="tablinks" onclick="openpage(event, 'events')">events</button>
-        <button class="tablinks" onclick="openpage(event, 'gallery')">gallery</button>
+        <button class="tablinks" onclick="openpage(event, 'store')">store</button>
         <button class="tablinks" onclick="openpage(event, 'contact')">contact</button>
     </div>
 <!-- main page -->
@@ -101,15 +101,28 @@
     </div>
 
 <!-- Gallery page-->
-<div id="gallery" class="tabcontent">
-    gallery
+<div id="store" class="tabcontent">
+  store
    
 </div>
     
 
 
 <!-- Contact page-->    
-    <div id="contact" class="tabcontent">
+<div id="contact" class="tabcontent">
+
+    <div id="our-info">
+        <div class="box">
+          <p>Contact information:</p>
+          <ul>
+              <li>Address: this is our address</li>
+              <li>Email: ouremail@contact.com</li>
+              <li>Phone: +35850 1234567</li>
+          </ul>
+        
+</div>
+        
+    </div>    
             <div class="container">
                     <form action="action_page.php">
                   
@@ -123,7 +136,7 @@
                       <input type="text" id="email" name="email" placeholder="Your Email..">
                   
                       <label for="country">Country</label>
-                      <select id="country" name="country">
+                      <select id="country" name="country" placeholder="Your Country">
                         <option value="australia">Australia</option>
                         <option value="canada">Canada</option>
                         <option value="usa">USA</option>
@@ -139,6 +152,8 @@
                   
                     </form>
                   </div>
+
+    <footer id="contactfooter">&copy; copyright </footer>  
                   
     </div>
 

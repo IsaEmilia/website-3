@@ -191,9 +191,25 @@ input[type=text], select, textarea {
     background-color: #5b7572;
   }
   
+  #our-info{
+    font-family: 'montserrat', sans-serif;
+    background-color: white;
+    padding: 20px;  
+  }
+  .box{
+   border: 1px solid #5b7572;
+   padding: 20px;
+  }
+  ul{
+      list-style: none;
+      line-height: 2em;
+  }
   .container {
     font-family: 'montserrat', sans-serif;
-    border-radius: 5px;
     background-color: white;
     padding: 20px;
+  }
+
+  #contactfooter{
+    font-family: 'montserrat', sans-serif;
   }
